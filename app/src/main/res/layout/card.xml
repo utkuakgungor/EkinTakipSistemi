@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#FFE5B4"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/cardTitle1"
+                android:text="Tarla Adı:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:textSize="18sp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/cardTitle2"
+                android:text="Ekin Türü:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/cardTitle1"
+                android:layout_marginTop="24dp"
+                android:layout_alignStart="@id/cardTitle1"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/cardTitle3"
+                android:text="Ekin Tarihi:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/cardTitle2"
+                android:layout_marginTop="24dp"
+                android:layout_alignStart="@+id/cardTitle1"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/cardTitle4"
+                android:text="Son Sulama:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/cardTitle3"
+                android:layout_marginTop="24dp"
+                android:layout_alignStart="@+id/cardTitle1"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/cardTitle5"
+                android:text="Toprak Türü:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/cardTitle4"
+                android:layout_marginTop="24dp"
+                android:layout_alignStart="@+id/cardTitle4"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/degiskenTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Kabul1"
+                android:textSize="18sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="40dp"
+                android:layout_toEndOf="@id/cardTitle1"
+                android:textColor="@color/colorBlack"
+                />
+
+            <TextView
+                android:id="@+id/degiskenTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Kabul2"
+                android:textSize="18sp"
+                android:layout_alignStart="@id/degiskenTitle1"
+                android:layout_alignBottom="@id/cardTitle2"
+                android:layout_toEndOf="@id/cardTitle2"
+                android:textColor="@color/colorBlack"
+                />
+
+            <TextView
+                android:id="@+id/degiskenTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Kabul3"
+                android:textSize="18sp"
+                android:layout_alignStart="@id/degiskenTitle2"
+                android:layout_alignBottom="@id/cardTitle3"
+                android:layout_toEndOf="@id/cardTitle3"
+                android:textColor="@color/colorBlack"
+                />
+
+            <TextView
+                android:id="@+id/degiskenTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Kabul4"
+                android:textSize="18sp"
+                android:layout_alignStart="@id/degiskenTitle3"
+                android:layout_alignBottom="@id/cardTitle4"
+                android:layout_toEndOf="@id/cardTitle4"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:id="@+id/degiskenTitle5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Kabul5"
+                android:textSize="18sp"
+                android:layout_alignStart="@id/degiskenTitle4"
+                android:layout_alignBottom="@id/cardTitle5"
+                android:layout_toEndOf="@id/cardTitle5"
+                android:textColor="@color/colorBlack"
+                />
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

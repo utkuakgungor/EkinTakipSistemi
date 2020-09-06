@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/tavsiye_al"
+            android:title="@string/muhendis"
+            android:icon="@drawable/ic_engineer"/>
+        <item
+            android:id="@+id/haberler"
+            android:title="@string/haberler"
+            android:icon="@drawable/ic_news"/>
+        <item
+            android:id="@+id/ekle"
+            android:title="@string/tarla"
+            android:icon="@drawable/ic_field"/>
+        <item
+            android:id="@+id/alımsatim"
+            android:title="@string/alimsatim"
+            android:icon="@drawable/ic_shopping"/>
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/ayarlar"
+            android:title="@string/ayarlar"
+            android:icon="@drawable/ic_settings"/>
+        <item
+            android:id="@+id/hakkimizda"
+            android:title="@string/hakkimizda" />
+    </group>
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ekin Takip Sistemi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="birimler">Birimler</string>
+    <string name="havadurumu">Hava Durumu</string>
+    <string name="parola">Parola</string>
+    <string name="destek">Destek</string>
+    <string name="alimsatim">Alım Satım</string>
+    <string name="haberler">Haberler</string>
+    <string name="muhendis">Mühendise Sor</string>
+    <string name="tarla">Tarla Ekle</string>
+    <string name="hakkimizda">Hakkımızda</string>
+    <string name="hakkimizdaİcerik">Utku Akgüngör</string>
+    <string name="tarlaeklendi">Tarla Eklendi</string>
+</resources>

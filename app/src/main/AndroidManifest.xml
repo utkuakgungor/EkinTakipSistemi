@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utkuakgungor.ekintakipsistemi">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="ekintakipsistemi" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tarlaekle.TarlaEkleActivity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ayarlar.AyarlarActivity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detay.DetayActivity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hakkimizda.HakkimizdaActivity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".main.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
